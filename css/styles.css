@@ -1,0 +1,155 @@
+h1 { color: red;
+    font-size: 5px;
+}
+
+section {
+    background-color: red;
+}
+
+
+.colorRojo {
+    color: green;
+}
+
+.fuenteGrande {
+    font-size: 100px;
+}
+
+#clase2 {
+    background-color: indigo;
+}
+
+.fuenteMediana {
+    font-size: 40px;
+}
+
+p {
+    color: magenta;
+}
+
+p {
+ color: yellow;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+
+.card1 {
+    background-color: black;
+    width: 35%;
+    height: 1000px;
+    margin-bottom: 60px;
+    position: relative;
+
+}
+
+
+.card1 img{
+    width: 200px;
+    display: block;
+    margin: 100px;
+    border-top: solid 2px red;
+    border-bottom: transparent;
+    border-radius: 50%;
+    
+}
+
+.fondoVerde {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    padding: 10px 20px;
+
+}
+
+
+.card2 {
+    background-color: green;
+    padding: 100px;
+}
+
+.css{
+    border:solid 1px black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    overflow: scroll;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    width: 25%;
+}
+
+.esconder {
+    display: none;
+    visibility: hidden;
+}
+
+.enlaceWhatsapp {
+    color: green;
+    font-size: 60px;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+}
+
+.menuNav {
+   background-color: lightblue;
+   position: fixed;
+   top: 0;
+   z-index: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listaNavegacion {
+    display: flex;
+    padding: 20px 0;
+}
+
+#galeria {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    
+}
+
+#cards-flex {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    background-image: linear-gradient()
+}
+
+.imgTamaño {
+    size: 1000px;
+    }
+
+    /* EJEMPLO 1 CS */
+
+    .grid {
+    display: grid;
+     /* dos columnas */
+    grid-template-columns: 300px 100px;
+    /* dos filas */
+    grid-template-rows: 40 px 100px;
+
+    font-size: 20px;
+ }
+
+ @media  (max-width: 767px) {
+
+ }
+
